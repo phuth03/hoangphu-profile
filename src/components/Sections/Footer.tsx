@@ -1,5 +1,5 @@
 import {
-  BoltIcon, ChevronUpIcon
+  ChevronUpIcon
 } from '@heroicons/react/24/solid';
 import {
   FC, memo
