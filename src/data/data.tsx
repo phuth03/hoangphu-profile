@@ -259,7 +259,7 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'A former manager',
+      name: 'Pham Phu Thanh Sang - A former manager',
       text: 'Phu is a diligent employee who always strives to complete assigned tasks well. He has the ability to learn very quickly and apply it well to practical situations.',
       image: 'https://...', // URL of the manager's photo
     },
