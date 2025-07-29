@@ -41,7 +41,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Truong Hoang Phu | .NET Software Engineer',
+  title: 'Truong Hoang Phu | Data Analyst',
   description: "My personal resume website",
 };
 
@@ -70,10 +70,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        A dedicated and detail-oriented <strong className="text-stone-100">Software Engineer</strong> with practical experience in building full-stack web applications on the <strong className="text-stone-100">.NET Framework</strong>.
+        I'm a detail-oriented and analytical <strong className="text-stone-100">Data Analyst</strong> with a strong foundation in Information Systems and a passion for uncovering actionable insights from data.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am proficient in C# and ASP.NET, with a strong understanding of OOP and MVC architecture, ready to apply my skills in a professional environment.
+        Proficient in extracting, cleaning, and visualizing data using tools like <strong className="text-stone-100">SQL, Power BI, and Excel</strong>. Eager to support data-driven decision-making.
       </p>
     </>
   ),
@@ -99,7 +99,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   // Mẹo: Thay thế 'profilepic.jpg' bằng file ảnh của bạn trong thư mục /src/images/
   profileImageSrc: profilepic,
-  description: `A dedicated and detail-oriented Software Engineer with practical experience in building full-stack web applications on the .NET Framework. Proficient in C# and ASP.NET, with a strong understanding of OOP and MVC architecture. Eager to apply my technical abilities and problem-solving mindset in a professional and structured environment.`,
+  description: `A detail-oriented and analytical recent graduate with a strong foundation in Information Systems and a passion for data analysis. Proficient in extracting, cleaning, and visualizing data using tools like SQL, Power BI, and Excel. I have foundational knowledge of big data technologies including Spark and Hadoop, and I am eager to leverage my technical skills to uncover actionable insights and support data-driven decision-making.`,
   aboutItems: [
     { label: 'Location', text: 'Thu Duc, HCMC', Icon: MapIcon },
     { label: 'Age', text: '22', Icon: CalendarIcon },
@@ -114,63 +114,33 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Backend Development',
+    name: 'Data Visualization',
     skills: [
-      {
-        name: 'C#, ASP.NET, .NET Framework',
-        level: 9,
-      },
-      {
-        name: 'OOP, MVC Architecture',
-        level: 8,
-      },
-      {
-        name: 'Web API',
-        level: 7,
-      },
+      { name: 'Power BI', level: 9 },
+      { name: 'MS Excel', level: 8 },
+      { name: 'Google Sheets', level: 7 },
     ],
   },
   {
-    name: 'Database Development',
+    name: 'Database',
     skills: [
-      {
-        name: 'MS SQL Server',
-        level: 9,
-      },
-      {
-        name: 'MySQL',
-        level: 6,
-      },
-      {
-        name: 'Database Design, SQL Querying',
-        level: 8,
-      },
+      { name: 'MS SQL Server', level: 9 },
+      { name: 'Oracle SQL', level: 7 },
+      { name: 'SQL Querying', level: 8 },
     ],
   },
   {
-    name: 'Frontend Development',
+    name: 'Big Data',
     skills: [
-      {
-        name: 'HTML5, CSS3, JavaScript',
-        level: 8,
-      },
-      {
-        name: 'jQuery, Bootstrap',
-        level: 7,
-      },
+      { name: 'Apache Spark', level: 6 },
+      { name: 'Hadoop', level: 5 },
     ],
   },
   {
-    name: 'Tools & Version Control',
+    name: 'Programming',
     skills: [
-      {
-        name: 'Git, GitHub',
-        level: 9,
-      },
-      {
-        name: 'Visual Studio',
-        level: 8,
-      },
+      { name: 'Python', level: 7 },
+      { name: 'C#', level: 8 },
     ],
   },
 ];
@@ -255,18 +225,28 @@ export const education: TimelineItem[] = [
     date: '2021 - 2025',
     location: 'University of Economics and Finance (UEF)',
     title: 'Bachelor of Information Technology',
-    content: <p>Major: Information Systems. GPA: 3.2/4.0. English: TOEIC 580, VSTEP B1.</p>,
+    content: <p>Major: Information Systems. GPA: 3.2/4.0.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'April 2025 - June 2025',
-    location: 'IT Center, University of Economics and Finance (UEF)',
-    title: 'Internship',
+    date: 'Jan 2025 - Jun 2025',
+    location: 'E-commerce Website',
+    title: 'Data Analyst',
     content: (
       <p>
-        Collaborated with a development team to support and maintain internal web applications. Gained practical experience in a professional work environment, adhering to coding standards and team processes.
+        Analyzed transactional data using complex SQL queries to identify customer purchasing patterns. Built interactive dashboards in Power BI to visualize key business metrics.
+      </p>
+    ),
+  },
+  {
+    date: 'Aug 2024 - Oct 2024',
+    location: 'Project Management Application',
+    title: 'Data Analyst',
+    content: (
+      <p>
+        Collected and analyzed project data to track key performance indicators (KPIs) such as task completion rates and team productivity.
       </p>
     ),
   },
@@ -278,11 +258,15 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    // Mẹo: Bạn có thể xóa phần này hoặc thay thế bằng nhận xét từ đồng nghiệp/giảng viên
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'A former manager',
+      text: 'Phu is a diligent employee who always strives to complete assigned tasks well. He has the ability to learn very quickly and apply it well to practical situations.',
+      image: 'https://...', // URL of the manager's photo
+    },
+    {
+      name: 'A colleague',
+      text: 'Working with Phu is wonderful. He is very enthusiastic in supporting everyone and has a high sense of responsibility.',
+      image: 'https://...', // URL of the colleague's photo
     },
   ],
 };
@@ -292,12 +276,17 @@ export const testimonial: TestimonialSection = {
  */
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to reach out to me via email or connect with me on GitHub.',
+  description: 'Feel free to reach out to me via email or phone.',
   items: [
     {
       type: ContactType.Email,
       text: 'hoangphudev0103@gmail.com',
       href: 'mailto:hoangphudev0103@gmail.com',
+    },
+    {
+      type: ContactType.Phone,
+      text: '0376976198',
+      href: 'tel:0376976198',
     },
     {
       type: ContactType.Location,
