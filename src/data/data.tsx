@@ -101,11 +101,22 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A detail-oriented and analytical recent graduate with a strong foundation in Information Systems and a passion for data analysis. Proficient in extracting, cleaning, and visualizing data using tools like SQL, Power BI, and Excel. I have foundational knowledge of big data technologies including Spark and Hadoop, and I am eager to leverage my technical skills to uncover actionable insights and support data-driven decision-making.`,
   aboutItems: [
-    { label: 'Location', text: 'Thu Duc, HCMC', Icon: MapIcon },
-    { label: 'Age', text: '22', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Vietnamese', Icon: FlagIcon },
-    { label: 'Study', text: 'University of Economics and Finance (UEF)', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Open to new opportunities', Icon: BuildingOffice2Icon },
+    {
+      label: 'Location', text: 'Thu Duc, HCMC', Icon: MapIcon
+    },
+    {
+      label: 'Age', text: '22', Icon: CalendarIcon
+    },
+    {
+      label: 'Nationality', text: 'Vietnamese', Icon: FlagIcon
+
+    },
+    {
+      label: 'Study', text: 'University of Economics and Finance (UEF)', Icon: AcademicCapIcon
+    },
+    {
+      label: 'Employment', text: 'Open to new opportunities', Icon: BuildingOffice2Icon
+    },
   ],
 };
 
@@ -116,31 +127,51 @@ export const skills: SkillGroup[] = [
   {
     name: 'Data Visualization',
     skills: [
-      { name: 'Power BI', level: 9 },
-      { name: 'MS Excel', level: 8 },
-      { name: 'Google Sheets', level: 7 },
+      {
+        name: 'Power BI', level: 9
+      },
+      {
+        name: 'MS Excel', level: 8
+      },
+      {
+        name: 'Google Sheets', level: 7
+      },
     ],
   },
   {
     name: 'Database',
     skills: [
-      { name: 'MS SQL Server', level: 9 },
-      { name: 'Oracle SQL', level: 7 },
-      { name: 'SQL Querying', level: 8 },
+      {
+        name: 'MS SQL Server', level: 9
+      },
+      {
+        name: 'Oracle SQL', level: 7
+      },
+      {
+        name: 'SQL Querying', level: 8
+      },
     ],
   },
   {
     name: 'Big Data',
     skills: [
-      { name: 'Apache Spark', level: 6 },
-      { name: 'Hadoop', level: 5 },
+      {
+        name: 'Apache Spark', level: 6
+      },
+      {
+        name: 'Hadoop', level: 5
+      },
     ],
   },
   {
     name: 'Programming',
     skills: [
-      { name: 'Python', level: 7 },
-      { name: 'C#', level: 8 },
+      {
+        name: 'Python', level: 7
+      },
+      {
+        name: 'C#', level: 8
+      },
     ],
   },
 ];
@@ -305,7 +336,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/phuth03' },
+  {
+    label: 'Github', Icon: GithubIcon, href: 'https://github.com/phuth03'
+  },
   // Mẹo: Thêm các mạng xã hội khác của bạn ở đây nếu có
   // {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/your-profile/'},
 ];
