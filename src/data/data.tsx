@@ -21,6 +21,11 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
+import porfolioImage13 from '../images/portfolio/portfolio-13.jpg';
+import porfolioImage14 from '../images/portfolio/portfolio-14.jpg';
+import porfolioImage15 from '../images/portfolio/portfolio-15.jpg';
+import porfolioImage16 from '../images/portfolio/portfolio-16.jpg';
 // Mẹo: Thay thế ảnh này bằng ảnh đại diện của bạn
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -245,6 +250,36 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
     url: 'http://hoangphudev-001-site1.stempurl.com/',
     image: porfolioImage11,
+  },
+  {
+    title: 'Bookstore E-commerce Website',
+    description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
+    url: 'http://hoangphudev-001-site1.stempurl.com/',
+    image: porfolioImage12,
+  },
+  {
+    title: 'Bookstore E-commerce Website',
+    description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
+    url: 'http://hoangphudev-001-site1.stempurl.com/',
+    image: porfolioImage13,
+  },
+  {
+    title: 'Bookstore E-commerce Website',
+    description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
+    url: 'http://hoangphudev-001-site1.stempurl.com/',
+    image: porfolioImage14,
+  },
+  {
+    title: 'Bookstore E-commerce Website',
+    description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
+    url: 'http://hoangphudev-001-site1.stempurl.com/',
+    image: porfolioImage15,
+  },
+  {
+    title: 'Bookstore E-commerce Website',
+    description: 'Developed a complete e-commerce platform using C# and ASP.NET MVC, with a SQL Server database and a responsive UI.',
+    url: 'http://hoangphudev-001-site1.stempurl.com/',
+    image: porfolioImage16,
   },
 ];
 
